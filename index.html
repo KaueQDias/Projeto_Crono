@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Cronometro</title>
+</head>
+<body> 
+  <main>
+    <header id="nav">
+        <div class="icon">
+            <img src="assets/img/lovepik-blue-alarm-clock-png-image_401300458_wh860.png" alt="">
+        </div>
+        <div class="nav2">
+                            <!-- Button trigger modal -->
+            <a class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Outros Sites
+            </a>
+                <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Nossos sites:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Este site com receitas e fantasias para halloween:
+                                <a href="https://halloween-k.netlify.app/">Veja!</a>
+                            </p>
+                            <p>
+                                portfolio pessoal:
+                                <a href="https://blog-dev-ops.netlify.app/">Clique!</a>
+                            </p>
+                            <p>
+                                Um site com informações aleatórias:
+                                <a href="https://parallax-info.netlify.app/">kkkk</a>
+                            </p>
+                            <p>
+                                Um quiz sobre jogos:
+                                <a href="https://projeto-quiz.netlify.app/">Teste seus conhecimentos</a>
+                            </p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+
+    <section>
+        <p id="contagem">
+            00:00:00
+        </p>
+      <button id="btn01" onclick="comeca()">Iniciar </button>
+      <button id="btn02" onclick="reseta()">Resetar </button>
+      <button id="btn03" onclick="pausar()">Pausar </button>
+    </section>
+        
+
+    </main>
+
+    <footer>
+        <div class="card text-center fixed-bottom bg-transparent">
+            <div class="card-header peso">
+                Criado por:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title peso">
+                    Kauê e Riquelme
+                </h5>
+                <a href="https://github.com/KaueQDias" id="btn"><img src="assets/img/github_logo_icon_147285.png" alt="Ícone do github" ></a>
+            </div>
+          </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
